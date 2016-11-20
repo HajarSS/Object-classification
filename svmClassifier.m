@@ -2,10 +2,10 @@
 % Preparing data for test and Testing SVM  
 % ---------------------------------------
 
-load data_test;           % the test data
+load data_test;           % load the test data
 data_test= double(data_test);
 
-load model_rbf_84_sharp_HOG;   % the trained svm 
+load model_rbf_84_sharp_HOG;   % load the trained svm 
 
 nCar= 20;    % number of testing data for car
 nBus= 10;    % number of testing data for bus
